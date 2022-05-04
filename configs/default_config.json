@@ -1,0 +1,76 @@
+{
+    "dependances": [
+        {
+            "nom": "DataPlotly",
+            "version": "2.3"
+        }
+    ],
+    "zone_etude": {
+        "xMin": -3.250963229147656,
+        "yMin": 43.626068795249935,
+        "xMax": 2.7128211274712104,
+        "yMax": 45.88028845554173
+    },
+    "api": {
+        "forgeBrgm": {
+            "url": "https://forge-scientifique.brgm-rec.fr",
+            "projectId": 4,
+            "defaultTrackerId": 1,
+            "defaulStatusId": 1,
+            "defaulPriorityId": 4,
+            "champs_custom": [
+                {
+                    "nom": "Coordonnées X",
+                    "id": 35,
+                    "nom_input": "input_lat"
+                },
+                {
+                    "nom": "Coordonnées Y",
+                    "id": 36,
+                    "nom_input": "input_long"
+                }
+            ]
+        },
+        "piceau": {
+            "url": "https://piceau.brgm-rec.fr/api",
+            "routes": {
+                "stats_descriptives_piezo": "stats_descriptives_piezo"
+            }
+        }
+    },
+    "anomalies": {
+        "champs": [
+            {
+                "nom": "input_type",
+                "modifiable": false
+            },
+            {
+                "nom": "input_titre",
+                "modifiable": true,
+                "requis": true
+            },
+            {
+                "nom": "input_description",
+                "modifiable": true
+            },
+            {
+                "nom": "input_idBss",
+                "modifiable": true
+            },
+            {
+                "nom": "input_codeBss",
+                "modifiable": true
+            },
+            {
+                "nom": "input_lat",
+                "modifiable": true,
+                "type": "double"
+            },
+            {
+                "nom": "input_long",
+                "modifiable": true,
+                "type": "double"
+            }
+        ]
+    }
+}

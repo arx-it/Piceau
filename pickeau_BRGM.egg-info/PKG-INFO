@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: pickeau-BRGM
+Version: 0.0.1
+Summary: brgm
+Home-page: https://exemple.com
+Author: brgm
+Author-email: brgm@brgm.fr
+License: UNKNOWN
+Description: # Doc python #
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6

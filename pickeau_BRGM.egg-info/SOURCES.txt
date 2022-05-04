@@ -1,0 +1,15 @@
+README.md
+setup.py
+pickeau_BRGM.egg-info/PKG-INFO
+pickeau_BRGM.egg-info/SOURCES.txt
+pickeau_BRGM.egg-info/dependency_links.txt
+pickeau_BRGM.egg-info/requires.txt
+pickeau_BRGM.egg-info/top_level.txt
+test/__init__.py
+test/qgis_interface.py
+test/test_init.py
+test/test_post_marthe_dockwidget.py
+test/test_qgis_environment.py
+test/test_resources.py
+test/test_translations.py
+test/utilities.py

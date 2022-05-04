@@ -1,0 +1,3 @@
+Les fonctionnalités de tracé de graphiques de PickEau s'appuient sur l'extension 'DataPlotly'.
+Veuillez installer manuellement 'DataPlotly', via le gestionnaire d'extensions Qgis.
+(Menu 'Extension' --> 'Installer/Gérer les extensions') - puis redémarrer Qgis.
