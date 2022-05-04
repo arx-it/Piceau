@@ -1,0 +1,41 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=PickEau
+qgisMinimumVersion=3.0
+description=Télécharger automatiquement les chroniques de niveau piézométrique et de qualité des eaux souterraines mises à disposition par les API HubEau, les visualiser de manière interactive, afficher leurs statistiques et leurs tendances, partager des commentaires sur la qualité des données.
+version=0.1
+author=BRGM
+email=l.vaute@brgm.fr
+
+about=L'extension Pic'Eau permet de télécharger automatiquement les chroniques de niveau piézométrique et de qualité des eaux souterraines mises à disposition par les API HubEau (https://hubeau.eaufrance.fr/). Pic'Eau permet ensuite de tracer les chroniques de manière interactive, d'afficher leurs statistiques et leurs tendances, et de partager avec les autres utilisateurs des commentaires sur la qualité des données.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=python
+
+homepage=http://homepage
+category=Plugins
+icon=pickeau_icon.png
+# experimental flag
+experimental=False
+
+# plugin_dependencies=xlwings
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+

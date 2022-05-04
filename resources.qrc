@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/PickEau/" >
+        <file>pickeau_icon.png</file>
+    </qresource>
+</RCC>

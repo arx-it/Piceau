@@ -1,0 +1,83 @@
+{
+  "ip_hubeau": {
+    "qualite_nappes_stations_csv": "https://hubeau.eaufrance.fr/api/v1/qualite_nappes/stations.csv?size=20000&srid=4326",
+    "qualite_nappes_stations_geojson": "https://hubeau.eaufrance.fr/api/v1/qualite_nappes/stations?size=20000&format=geojson&srid=4326",
+    "niveaux_nappes_stations_csv": "https://hubeau.eaufrance.fr/api/v1/niveaux_nappes/stations.csv?size=20000&srid=4326",
+    "niveaux_nappes_stations_geojson": "https://hubeau.eaufrance.fr/api/v1/niveaux_nappes/stations?size=20000&format=geojson&srid=4326",
+    "qualite_nappes_analyses_csv": "https://hubeau.eaufrance.fr/api/v1/qualite_nappes/analyses.csv?size=20000",
+    "qualite_nappes_analyses_geojson": "https://hubeau.eaufrance.fr/api/v1/qualite_nappes/analyses.csv?size=20000&format=geojson",
+    "niveaux_nappes_chroniques_csv": "https://hubeau.eaufrance.fr/api/v1/niveaux_nappes/chroniques.csv?size=20000",
+    "niveaux_nappes_chroniques_geojson": "https://hubeau.eaufrance.fr/api/v1/niveaux_nappes/chroniques.csv?size=20000&format=geojson"
+  },
+  "ip_sandre": {
+    "parametres_csv_gz" :"https://api.sandre.eaufrance.fr/referentiels/v1/parametre.csv?compress=true",
+    "groupes_csv_gz" :"https://api.sandre.eaufrance.fr/referentiels/v1/groupeparametres.csv?compress=true",
+    "masses_eau_csv_gz": "https://api.sandre.eaufrance.fr/referentiels/v1/massedeau.csv?compress=true"
+  },
+  "ip_ades": {
+    "unites_parametres_support_liquide_xml" :"http://services.ades.eaufrance.fr/analyse/maj_referentiels.aspx?op=getUnitsParamSupportL",
+    "parametres_xml" :"http://services.ades.eaufrance.fr/analyse/maj_referentiels.aspx?op=getListParam"
+  },
+  "list_col_data_niveaux_nappes_chroniques_csv":[
+    "date_mesure",
+    "niveau_nappe_eau",
+    "mode_obtention",
+    "statut",
+    "qualification"
+  ],
+  "list_col_metadata_niveaux_nappes_chroniques_csv":[
+    "code_bss",
+    "urn_bss"
+  ],
+  "list_col_data_qualite_nappes_analyses_csv":[
+    "code_param",
+    "nom_param",
+    "date_debut_prelevement",
+    "resultat",
+    "code_unite",
+    "symbole_unite",
+    "code_remarque_analyse",
+    "nom_remarque_analyse",
+    "limite_detection",
+    "limite_quantification",
+    "seuil_saturation",
+    "code_producteur",
+    "nom_producteur",
+    "code_qualification",
+    "nom_qualification",
+    "code_statut_analyse",
+    "nom_statut_analyse"
+  ],
+  "list_col_metadata_qualite_nappes_analyses_csv": [
+    "bss_id",
+    "code_bss",
+    "altitude",
+    "code_bassin_dce",
+    "nom_bassin_dce",
+    "code_circonscription_administrative_bassin",
+    "nom_circonscription_administrative_bassin",
+    "code_insee_actuel",
+    "nom_commune_actuel",
+    "num_departement",
+    "nom_departement",
+    "code_region",
+    "nom_region",
+    "code_type_point_eau",
+    "nom_type_point_eau",
+    "codes_entite_hg_bdlisa",
+    "noms_entite_hg_bdlisa",
+    "codes_masse_eau_edl",
+    "noms_masse_eau_edl",
+    "codes_masse_eau_rap",
+    "noms_masse_eau_rap",
+    "codes_reseau",
+    "noms_reseau",
+    "precision_coordonnees",
+    "urn_bss",
+    "uris_reseau",
+    "urn_bassin_dce",
+    "urns_bdlisa",
+    "urns_masse_eau_edl",
+    "urns_masse_eau_rap"
+  ]
+}
