@@ -1,1 +1,1 @@
-# Doc python #
+# Plugin QGIS Pic'eau arx IT et BRGM #
