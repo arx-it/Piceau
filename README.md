@@ -1,1 +1,1 @@
-# Plugin QGIS Pic'eau arx IT et BRGM #
+# Plugin QGIS Pic'eau arx iT et BRGM #
